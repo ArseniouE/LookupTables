@@ -1,0 +1,198 @@
+---------------------Corrections in Lookups-----------------------------
+
+-----------------------------------
+--      BusinessActivity
+-----------------------------------
+
+--select * into [dbo].[BusinessActivity_LookUp_bck] from [dbo].[BusinessActivity_LookUp]
+
+--DROP TABLE IF EXISTS [dbo].[BusinessActivity_LookUp]
+CREATE TABLE [dbo].[BusinessActivity_LookUp](
+	[KLADOS_code] [varchar](50) NULL,
+	[klados_descr] [varchar](50) NULL,
+	[CL_Code] [varchar](50) NULL,
+	[KLADOS_code_B] [varchar](50) NULL
+) ON [PRIMARY]
+
+GO
+
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'20013', N'Αγροκαλλιέργειες', N'1', N'20008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'740013', N'Αεροπορικές Μεταφορές', N'2', N'740008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'810013', N'Ακίνητη Περιουσία', N'3', N'810008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'730013', N'Ακτοπλοικές Μεταφορές', N'4', N'730008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'120013', N'Βασικά Προιόντα Ξύλου', N'5', N'120008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'960013', N'Βιομ. Αναψυκτικών-Νερών', N'6', N'960008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'970013', N'Βιομ. Καλλυντικών-Απορρυπ.', N'7', N'970008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'980013', N'Βιομ. Τροφίμων (Κρέατα)', N'8', N'980008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'1000013', N'Βιομ. Τροφίμων (Λαχανικά)', N'9', N'1000008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'990013', N'Βιομ. Τροφίμων (Λοιπά)', N'10', N'990008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'80013', N'Βιομηχανία Αλκοολούχων Ποτών', N'11', N'80008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'320013', N'Βιομηχανία Επίπλων', N'12', N'320008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'90013', N'Βιομηχανία Καπνού', N'13', N'90008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'370013', N'Βιομηχανία Λοιπά', N'14', N'370008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'380013', N'Βιομηχανία Παιχνιδιών', N'15', N'380008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'70013', N'Βιομηχανία Τροφίμων (Έλαια)', N'16', N'70008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'160013', N'Βιομηχανία Χημικών', N'17', N'160008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'580013', N'Γεν. Λιανικό Εμπόριο/Πολυκαταστήματα', N'18', N'580008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'910013', N'Δημόσιες Υπηρεσίες', N'19', N'910008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'850013', N'Διαφήμιση', N'20', N'850008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'200013', N'Δομικά Υλικά', N'21', N'200008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'140013', N'Εκδοτικές Επιχειρήσεις', N'22', N'140008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'860013', N'Εκπαίδευση', N'23', N'860008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'190013', N'Ελαστικά Προιόντα', N'24', N'190008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'350013', N'Εμπόριο Μεταφορικών Μέσων', N'25', N'350008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'330013', N'Ενέργεια', N'26', N'330008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'300013', N'Εξοπλισμός Μεταφορών', N'27', N'300008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'60013', N'Εξόρυξη πετρελαίου', N'28', N'60008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'700013', N'Επιχειρήσεις Εστιάσεως', N'29', N'700008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'270013', N'Η/Υ-Ηλεκτρονικός Εξοπλισμός', N'30', N'270008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'280013', N'Ιατρικός Εξοπλισμός', N'31', N'280008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'40013', N'Ιχθυοκαλλιέργειες', N'32', N'40008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'340013', N'Κατασκευές-Οικοδομή', N'33', N'340008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'950013', N'Κατασκευή Ετ. Ενδυμάτων', N'34', N'950008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'360013', N'Κατασκευή Κοσμημάτων', N'35', N'360008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'110013', N'Κατασκευή Προιόντων Δέρματος', N'36', N'110008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'100013', N'Κλωστουφαντουργία', N'37', N'100008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'30013', N'Κτηνοτροφία', N'38', N'30008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'670013', N'Λιανικό Εμπόριο Βιβλίων-Εφημ.-Χαρτικών', N'39', N'670008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'630013', N'Λιανικό Εμπόριο Ενδυμάτων & Υποδημάτων', N'40', N'630008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'680013', N'Λιανικό Εμπόριο Εξειδικευμένων Ειδών', N'41', N'680008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'640013', N'Λιανικό Εμπόριο Επίπλων & Φωτιστικών', N'42', N'640008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'650013', N'Λιανικό Εμπόριο Ηλεκτρ. Οικ. Συσκευές', N'43', N'650008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'610013', N'Λιανικό Εμπόριο Καλλυντικών', N'44', N'610008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'600013', N'Λιανικό Εμπόριο Λοιπά', N'45', N'600008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'660013', N'Λιανικό Εμπόριο Σιδηρικών-Χρωμάτων-Τζαμιών', N'46', N'660008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'590013', N'Λιανικό Εμπόριο Τροφίμων', N'47', N'590008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'620013', N'Λιανικό Εμπόριο Υφαντουργικών Πρ.', N'48', N'620008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'690013', N'Λοιπά Τουριστ. Καταλύματα', N'49', N'690008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'930013', N'Λοιπές Μισθώσεις', N'50', N'930008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'920013', N'Λοιπές Υπηρεσίες', N'51', N'920008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'230013', N'Μεταλλικά Προιόντα', N'52', N'230008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'220013', N'Μεταλλουργεία', N'53', N'220008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'720013', N'Μεταφορές Εμπορευμάτων', N'54', N'720008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'710013', N'Μεταφορές Επιβατών', N'55', N'710008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'830013', N'Μηχανογραφικές Υπηρεσίες', N'56', N'830008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'290013', N'Μηχανολογικά Οργανα', N'57', N'290008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'240013', N'Μηχανολογικός Εξοπλισμός', N'58', N'240008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'0820013', N'Μισθ. Μεταφ. Μέσων', N'59', N'0820008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'900013', N'ΜΜΕ', N'60', N'900008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'310013', N'Ναυπηγεία', N'61', N'310008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'870013', N'Νοσοκομειακές-Ιατρικές Υπηρεσίες', N'62', N'870008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'10013', N'Ξενοδοχεία', N'63', N'10008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'260013', N'Οικιακές Συσκευές', N'64', N'260008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'250013', N'Οπλα & Πυρομαχικά', N'65', N'250008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'50013', N'Ορυχεία', N'66', N'50008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'790013', N'Πιστωτικές Υπηρεσίες', N'67', N'790008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'170013', N'Πλαστικά Προιόντα', N'68', N'170008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'150013', N'Προιόντα Πετρελαίου', N'69', N'150008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'210013', N'Προιόντα Τσιμέντου', N'70', N'210008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'130013', N'Προιόντα Χάρτου', N'71', N'130008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'760013', N'Ταξιδιωτικά Γραφεία', N'72', N'760008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'770013', N'Ταχυδρομικές Υπηρεσίες', N'73', N'770008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'780013', N'Τηλεπικοινωνίες', N'74', N'780008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'750013', N'Υπηρ. Υποστηρίξεως Μεταφορών', N'75', N'750008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'880013', N'Υπηρεσίες Κοινωνικού Χαρακτήρα', N'76', N'880008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'840013', N'Υπηρεσίες προς Επιχειρήσεις', N'77', N'840008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'180013', N'Φάρμακα', N'78', N'180008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'390013', N'Χονδρ. Εμπ. Γεωργικ.& Κτηνοτρ. Πρ.', N'79', N'390008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'430013', N'Χονδρικό Εμπόριο Ενδυμ.& Υποδημ.', N'80', N'430008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'560013', N'Χονδρικό Εμπόριο Η/Υ & Μηχανών Γραφείου', N'81', N'560008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'440013', N'Χονδρικό Εμπόριο Ηλ. Οικ. Συσκευών', N'82', N'440008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'460013', N'Χονδρικό Εμπόριο Καλλυντικών', N'83', N'460008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'400013', N'Χονδρικό Εμπόριο Καπνού', N'84', N'400008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'490013', N'Χονδρικό Εμπόριο Καυσίμων', N'85', N'490008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'420013', N'Χονδρικό Εμπόριο Κλωστ/κών Πρ.', N'86', N'420008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'480013', N'Χονδρικό Εμπόριο Λοιπ. Ειδ. Οικ. Χρήσεως', N'87', N'480008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'570013', N'Χονδρικό Εμπόριο Λοιπά', N'88', N'570008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'540013', N'Χονδρικό Εμπόριο Λοιπών Ενδιάμεσων Πρ.', N'89', N'540008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'500013', N'Χονδρικό Εμπόριο Μετάλλων & Μεταλλευμάτων', N'90', N'500008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'550013', N'Χονδρικό Εμπόριο Μηχανολ. Εξοπλισμού', N'91', N'550008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'510013', N'Χονδρικό Εμπόριο Ξυλείας & Δομικών Υλικών', N'92', N'510008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'520013', N'Χονδρικό Εμπόριο Σιδηρικών & Υδραυλικών Ειδών', N'93', N'520008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'410013', N'Χονδρικό Εμπόριο Τροφίμων', N'94', N'410008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'450013', N'Χονδρικό Εμπόριο Υαλικών Ειδών', N'95', N'450008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'470013', N'Χονδρικό Εμπόριο Φαρμακευτ. Πρ.', N'96', N'470008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'530013', N'Χονδρικό Εμπόριο Χημικών Πρ.', N'97', N'530008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'800013', N'Χρηματοικονομικές Υπηρεσίες', N'98', N'800008')
+INSERT [dbo].[BusinessActivity_LookUp] ([KLADOS_code], [klados_descr], [CL_Code], [KLADOS_code_B]) VALUES (N'890013', N'Ψυχαγωγικές Επιχειρήσεις', N'99', N'890008')
+
+
+--select * from [dbo].[BusinessActivity_LookUp_bck] where CL_Code ='99'
+--select * from [dbo].BusinessActivity_LookUp where CL_Code ='99'
+
+
+-----------------------------------
+--      BusinessPortfolio
+-----------------------------------
+
+--941	ΔΙΕΥΘΥΝΣΗ ΤΡΑΠΕΖΙΚΗΣ ΜΙΚΡΩΝ ΕΠΙΧΕΙΡΗΣΕΩΝ	99 na ginei 22
+--9411: 8a parameinei 9411 h 25? prepei na svhstei ena apo ta duo --------------------------!!!
+
+--select * INTO dbo.BusinessPortfolio_Lookup_bck from dbo.BusinessPortfolio_Lookup 
+update dbo.BusinessPortfolio_Lookup set CL_KEY = '22', CL_REFERENCE = 'Δ/ΝΣΗ ΤΡΑΠΕΖΙΚΗΣ ΜΙΚΡΩΝ ΕΠΙΧΕΙΡΗΣΕΩΝ' where ABRS_UNIT_CODE ='941' 
+
+--select * from dbo.BusinessPortfolio_Lookup where cl_key in ('22','9411')
+select * from dbo.BusinessPortfolio_Lookup order by cast(cl_key as int)
+
+-----------------------------------
+--      Credit_Committee_Lookup
+-----------------------------------
+
+--select * from [dbo].[Credit_Committee_Lookup] --einai ok
+
+
+-----------------------------------
+--      Nace_Industry_Lookup
+-----------------------------------
+
+--select * into [dbo].[Nace_Industry_Lookup_bck] from [dbo].[Nace_Industry_Lookup] where [Key_] in (2020,2223) 
+
+update [dbo].[Nace_Industry_Lookup] set Value_='Manufacture of pesticides and other agrochemical products' where Key_=2020
+
+--select * from [dbo].[Nace_Industry_Lookup] where [Key_] in (2020,2223) 
+
+--select * from [MISRISK].dbo.PEERS_TO_NACE_II where nace_code in (2020,2223)
+--select * from [MISRISK].dbo.[NACE1-NACE2-PEER-TEMPLATE 2013] where [NACE II/4 DIGITS] in (2020,2223)
+
+-----------------------------------
+--    Responsible_Officer_Lookup
+-----------------------------------
+
+--select * into [dbo].[Responsible_Officer_Lookup_bck] from [dbo].[Responsible_Officer_Lookup]
+
+--select * from [dbo].[Responsible_Officer_Lookup] where [Ονοματεπώνυμο] like '%ΜΑΚΡΗΣ%'
+
+update [dbo].[Responsible_Officer_Lookup] set [Mapping name]='ΕΙΡΗΝΗ ΓΕΩΡΓΑΡΑ' where [Ονοματεπώνυμο] = 'ΕΙΡΗΝΗ ΓΕΩΡΓΑΡΑ'
+update [dbo].[Responsible_Officer_Lookup] set [Mapping name]='ΕΛΕΩΝΩΡΑ ΚΑΡΑΜΑΝΗ' where [Ονοματεπώνυμο] = 'ΚΑΡΑΜΑΝΗ ΕΛΕΟΝΩΡΑ'
+update [dbo].[Responsible_Officer_Lookup] set [Mapping name]='ΚΟΜΠΙΤΣΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ' where [Ονοματεπώνυμο] = 'ΚΟΜΠΙΤΣΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ'
+update [dbo].[Responsible_Officer_Lookup] set [Mapping name]='ΕΥΘΥΜΙΑ ΜΠΛΕΤΣΑ' where [Ονοματεπώνυμο] = 'ΜΠΛΕΤΣΑ ΕΥΘΥΜΙΑ'
+update [dbo].[Responsible_Officer_Lookup] set [Mapping name]='ΦΩΤΕΙΝΗ ΜΠΟΥΡΝΕΛΗ' where [Ονοματεπώνυμο] = 'ΜΠΟΥΡΝΕΛΛΗ ΦΩΤΕΙΝΗ'
+update [dbo].[Responsible_Officer_Lookup] set [Mapping name]='ΝΑΣΤΟΣ ΙΩΑΝΝΗΣ' where [Ονοματεπώνυμο] = 'ΝΑΣΤΟΣ ΙΩΑΝΝΗΣ'
+update [dbo].[Responsible_Officer_Lookup] set [Mapping name]='ΔΗΜΗΤΡΙΟΣ ΣΕΠΕΤΣΙΟΓΛΟΥ' where [Ονοματεπώνυμο] = 'ΣΕΠΕΤΣΙΟΓΛΟΥ ΔΗΜΗΤΡΙΟΣ'
+update [dbo].[Responsible_Officer_Lookup] set [Mapping name]='ΜΑΚΡΗΣ ΓΕΩΡΓΙΟΣ' where [Ονοματεπώνυμο] = 'ΜΑΚΡΗΣ ΓΕΩΡΓΙΟΣ ΕΚΤΩΡ'
+
+--select * from MISRISK.dbo.ALPHA_TO_ICAP_USERS where UserName like '%ΔΟΥΔΕΣΗ%' 
+--select * from [dbo].[Responsible_Officer_Lookup] where [Ονοματεπώνυμο] like '%ΔΟΥΔΕΣΗ%' 
+--select * from MISRISK.dbo.ALPHA_TO_ICAP_USERS_LOG where arithm_mitrwou = 'c19828' order by date_modified desc
+
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΑΡΙΑΔΝΗ ΠΑΤΕΡΑΚΗ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΠΑΤΕΡΑΚΗ ΑΡΙΑΔΝΗ'                   and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΑΡΙΑΔΝΗ ΠΑΤΕΡΑΚΗ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΒΕΖΥΡΑΚΗΣ ΝΙΚΟΛΑΟΣ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΒΕΖΥΡΑΚΗΣ ΝΙΚΟΛΑΟΣ '             	and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΒΕΖΥΡΑΚΗΣ ΝΙΚΟΛΑΟΣ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΔΕΝΤΑΚΗ ΚΩΝΣΤΑΝΤΙΝΑ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΔΕΝΤΑΚΗ  ΚΩΝΣΤΑΝΤΙΝΑ'			and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΔΕΝΤΑΚΗ ΚΩΝΣΤΑΝΤΙΝΑ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΔΗΜΗΤΡΙΟΣ ΚΟΤΙΝΑΣ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΚΟΤΙΝΑΣ ΔΗΜΗΤΡΙΟΣ'					and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΔΗΜΗΤΡΙΟΣ ΚΟΤΙΝΑΣ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΙΩΑΝΝΑ ΓΑΓΑΡΑ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΓΑΓΑΡΑ ΙΩΑΝΝΑ'							and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΙΩΑΝΝΑ ΓΑΓΑΡΑ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΚΑΛΛΙΒΡΟΥΣΗΣ ΝΙΚΟΛΑΟΣ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΚΑΛΛΙΒΡΟΥΣΗΣ ΝΙΚΟΛΑΟΣ'			and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΚΑΛΛΙΒΡΟΥΣΗΣ ΝΙΚΟΛΑΟΣ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΚΑΛΛΙΟΠΗ ΠΟΘΗΤΟΥ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΠΟΘΗΤΟΥ ΚΑΛΛΙΟΠΗ'					and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΚΑΛΛΙΟΠΗ ΠΟΘΗΤΟΥ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΚΟΥΤΣΟΓΙΩΡΓΑΣ ΑΓΑΜΝΕΝΩΝ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΚΟΥΤΣΟΓΙΩΡΓΑΣ ΑΓΑΜΕΜΝΩΝ'		and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΚΟΥΤΣΟΓΙΩΡΓΑΣ ΑΓΑΜΝΕΝΩΝ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΚΩΝΣΤΑΝΤΙΝΟΣ ΣΩΤΗΡΙΟΥ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΣΩΤΗΡΙΟΥ ΚΩΝΣΤΑΝΤΙΝΟΣ'			and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΚΩΝΣΤΑΝΤΙΝΟΣ ΣΩΤΗΡΙΟΥ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΜΑΡΙΑ-ΕΛΕΝΗ ΤΖΟΡΜΠΑΚΗ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΤΖΟΡΜΠΑΚΗ ΜΑΡΙΑ ΕΛΕΝΗ'			and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΜΑΡΙΑ-ΕΛΕΝΗ ΤΖΟΡΜΠΑΚΗ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΝΙΚΟΛΑΟΣ ΤΑΣΣΟΠΟΥΛΟΣ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΤΑΣΣΟΠΟΥΛΟΣ ΝΙΚΟΛΑΟΣ'			and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΝΙΚΟΛΑΟΣ ΤΑΣΣΟΠΟΥΛΟΣ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΠΑΝΑΓΙΩΤΗΣ ΤΣΙΓΚΟΠΟΥΛΟΣ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΤΣΙΓΚΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ'		and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΠΑΝΑΓΙΩΤΗΣ ΤΣΙΓΚΟΠΟΥΛΟΣ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΦΩΤΙΟΣ ΚΟΝΤΟΝΙΚΑΣ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΚΟΝΤΟΝΙΚΑΣ ΦΩΤΙΟΣ'					and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΦΩΤΙΟΣ ΚΟΝΤΟΝΙΚΑΣ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΧΡΗΣΤΟΣ ΚΑΓΚΙΛΕΡΗΣ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΚΑΓΚΙΛΕΡΗΣ ΧΡΗΣΤΟΣ'				and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΧΡΗΣΤΟΣ ΚΑΓΚΙΛΕΡΗΣ')
+insert into [dbo].[Responsible_Officer_Lookup] select arithm_mitrwou [Αριθμός Μητρώου], Username [Ονοματεπώνυμο],'ΧΡΥΣΟΥΛΑ ΔΟΥΔΕΣΗ' [Mapping name] from MISRISK.dbo.ALPHA_TO_ICAP_USERS where Username='ΔΟΥΔΕΣΗ ΧΡΥΣΟΥΛΑ'					and not exists (select [Ονοματεπώνυμο] from [dbo].[Responsible_Officer_Lookup] where [Mapping name] = 'ΧΡΥΣΟΥΛΑ ΔΟΥΔΕΣΗ')
+
+
+--ΧΡΗΣΤΟΣ ΒΕΛΟΝΑΚΗΣ --den vre8hke sto ods-----------------!!!
+
+select  * from [dbo].[Responsible_Officer_Lookup] order by [Mapping name]
+
